@@ -4,8 +4,10 @@
 }
 
 .carouselPic {
-  height: 90px;
-  padding: 6px;  
+  height: 77px;
+  width: 77px;
+  padding: 6px;
+  /* border: solid dodgerblue; */
 } 
 
 .carouselPic:hover {
@@ -14,4 +16,13 @@
   border-width: thin;
 }
 
-
+.thumbnail {
+  display: block;
+  position: relative;
+  height: 85px;
+  width: 85px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: transform .6s cubic-bezier(.3,0,.45,1);
+}

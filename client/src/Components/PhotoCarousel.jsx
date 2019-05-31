@@ -7,11 +7,9 @@ const PhotoCarousel = (props) => {
     const selected = props.isSelected ? styles.indyPhotoSelected : styles.indyPhoto
     const classes = `tower${props.index} ${selected} ${styles.carouselPic}`
     return (
-      <div >
-        <span>
-          <img className={classes} src={props.photo} 
-            onClick={()=>props.photoClick(props.index)}/>
-        </span>
+      <div className={styles.thumbnail} style={{transform:`translate(0, ${props.shiftCount * 95}px)`}}>
+        <img className={classes} src={props.photo} 
+          onClick={()=>props.photoClick(props.index)}/>
       </div>
     )
   }

@@ -6,7 +6,7 @@ const getItem = (req, res) => {
     res.json(item)
   })
   .catch(error => {
-    res.status(400).send(`error processings request: ${error}`)
+    res.status(400).send(`error processing request: ${error}`)
   })
 };
 

@@ -27,21 +27,28 @@ const DescriptionContainer = props => {
       <div>
         <Price price={props.price}/>
       </div>
+
       <hr/>
+
       <div>
         <Colors colors={props.colors} colorNames={props.colorNames} colorProductClick={props.colorProductClick}/>
       </div>
+
       <hr/>
+
       <div className="ruler">
-      <i className="fas fa-ruler"></i>
+        <i className={classnames(styles.ruler, "fas fa-ruler")}></i>
       <span className={classnames(styles.sizeChart)} onClick={()=> props.toggleSizeModal()}>SIZE CHART</span>
       </div>
+
       <div>
         <DropDownMenus sizes={props.sizes}/>
       </div>
+
       <div>
         <AddToBag/>
       </div>
+      
       <div>
         <FindInStore toggleStore={props.toggleStore} findStore={props.findStore}/>
       </div>

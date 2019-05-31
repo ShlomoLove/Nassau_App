@@ -15,27 +15,15 @@ body {
   background-color: white;
 }
 
-.fa-ruler{
+/* .fa-ruler{
   color: lightgray;
   font-size: 30px;
   margin-top: .3em;  
-}
+} */
 
-.fa-map-marker-alt {
+/* .fa-map-marker-alt {
   color: red; 
-}
-
-.fa-chevron-up {
-  text-align: center;
-  width: 100px;
-  size: 100px;
-}
-
-.fa-chevron-down {
-  text-align: center;
-  width: 100px;
-  size: 100px;
-}
+} */
 
 /* .up-enter {
   position: absolute;

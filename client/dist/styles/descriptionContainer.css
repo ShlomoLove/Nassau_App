@@ -9,3 +9,10 @@
 .sizeChart:hover {
   cursor: pointer;
 }
+
+.ruler{
+  color: lightgray;
+  font-size: 30px;
+  margin-top: .3em;  
+}
+

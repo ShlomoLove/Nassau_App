@@ -1,6 +1,75 @@
+/* ************** whole app *************** */
+
 .appContainer {
   display: flex; 
+  /* border: solid green; */
+  margin-right: 6em;
+  margin-left: 6em; 
 }
+
+/* ************* photo carousel on side ************* */
+
+.largeCarouselContainer {
+  display: flex; 
+  /* border: solid red; */
+  flex-direction: column;
+}
+
+.carouselContainer{
+  /* border: solid orange;  */
+  display: block;
+  margin-right: 1em;
+  /* width: 12em; */
+  width: auto;
+  justify-content: center;
+  margin-left: 1em;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  box-sizing: border-box; 
+}
+
+.photoCarousel {
+  /* border: solid blue;  */
+  height: 568px;
+  width: 95px;
+  left: 15px;
+  white-space: nowrap; 
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  align-items: center;
+  /* position: absolute;  */
+}
+
+.chevron {
+  font-size: 1.5em;
+  color: lightgray;
+  font-weight: lighter;
+  text-align: center;
+  z-index: 20;
+}
+
+.chevron:hover {
+  color: darkgray; 
+  cursor: pointer;
+}
+
+.chevronUp {
+  padding-top: 1em; 
+  text-align: center;
+  width: 100%;
+  size: 100%;
+  z-index: 20;
+}
+
+.chevronDown {
+  text-align: center;
+  width: 100%;
+  size: 100%;
+  z-index: 20;
+}
+
+/* *********** size Modal ************* */
 
 .sizeModal {
   position: fixed; 
@@ -58,27 +127,10 @@
   color: darkgray;
 }
 
-.photoIconContainer{
-  display: flex;
-  width: 120px;
-  justify-content: center;
-  margin-left: 2em;
-}
-
-.chevron {
-  font-size: 30px;
-  color: lightgray;
-  font-weight: lighter;
-  text-align: center;
-}
-
-.chevron:hover {
-  color: darkgray; 
-  cursor: pointer;
-}
+/* ******** large picture ************* */
 
 .root {
-  display: flex;
   justify-content: center;
   align-items: center;
+  /* border: solid magenta;  */
 }
