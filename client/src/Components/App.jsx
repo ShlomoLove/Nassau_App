@@ -1,7 +1,8 @@
 import React from 'react';
 import axios from 'axios';
 import classNames from 'classnames';
-import $ from 'jquery';
+// import $ from 'jquery';
+
 
 import sampleData from '../sampleData.js';
 import BreadCrumb from './BreadCrumb.jsx';
